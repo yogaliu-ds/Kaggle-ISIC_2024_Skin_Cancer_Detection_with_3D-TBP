@@ -1,10 +1,6 @@
-# Kaggle-ISIC_2024_Skin_Cancer_Detection_with_3D-TBP
-
-Kaggle Competition: ISIC 2024 - Skin Cancer Detection with 3D-TBP
+# Kaggle Competition: ISIC 2024 - Skin Cancer Detection with 3D-TBP
 
 Period: Jun. 2024 - Sep. 2024
-
-
 
 # Competition Outline
 
