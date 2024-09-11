@@ -1,20 +1,28 @@
 # Kaggle Competition: ISIC 2024 - Skin Cancer Detection with 3D-TBP
 
-Period: Jun. 2024 - Sep. 2024
+## Competition Overview
 
-# Competition Outline
+The **ISIC 2024 - Skin Cancer Detection with 3D-TBP** competition is hosted on Kaggle. This repository contains the code and models developed for this competition.
 
-## Overview
+### Objective
 
-This project focuses on developing image-based algorithms to identify histologically confirmed skin cancer from 3D total body photos (TBP), resembling smartphone-quality images. The goal is to create a binary classifier that aids early skin cancer detection in settings without specialized care, improving triage.
+This project focuses on developing image-based algorithms to identify histologically confirmed skin cancer from 3D total body photos (TBP), resembling smartphone-quality images. The goal is to create a binary classifier that aids early skin cancer detection in settings without specialized care, thereby improving triage.
 
-## Background
+### Background
 
-Early detection of skin cancer is crucial, but many lack access to dermatologic care. AI algorithms have helped diagnose melanoma, basal cell, and squamous cell carcinoma, but there's untapped potential in determining which individuals need clinical attention. This project uses a dataset of single lesions from TBP images, offering the challenge of distinguishing malignant from benign lesions with lower-quality images often found in non-clinical settings.
+Early detection of skin cancer is crucial, yet many individuals lack access to dermatologic care. While AI algorithms have shown promise in diagnosing melanoma, basal cell carcinoma, and squamous cell carcinoma, there is still untapped potential in identifying which individuals require clinical attention. This project leverages a dataset of single lesions from TBP images, presenting the challenge of distinguishing malignant from benign lesions using lower-quality images often found in non-clinical settings.
 
-## Evaluation
+### Evaluation Metric
 
-Submissions are scored on the partial area under the ROC curve (pAUC), focusing on true positive rates (TPR) above 80%. This ensures algorithms meet the sensitivity required in clinical practice. Scores range from [0.0, 0.2].
+Submissions are evaluated based on the partial area under the ROC curve (pAUC), with a focus on true positive rates (TPR) above 80%. This ensures that algorithms meet the sensitivity required for effective clinical practice. Scores range from [0.0, 0.2].
 
-# Model
-Model: Ensemble Method (XGBoost, CatBoost, LGBM)
+### Model
+
+- **Model:** Ensemble Method (XGBoost, CatBoost, LGBM)
+- **Achievement:** Bronze Solution
+
+This repository includes the code and models developed for this competition. For detailed implementation and further instructions, please refer to the provided code.
+
+## Competition Details
+
+- **Period:** June 2024 - September 2024
